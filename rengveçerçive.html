@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- burda biz padding ve border anlayislarini oyreneceyik-->
+     <!-- padding - yazi ile serhed arasindaki mesafe
+        border - serhedin ozudur -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stiller</title>
+    <style>
+        *{margin: 0px;}
+        /* burdada gorduyunuz kimi style vverduyumuz zaman her bir yaziya tesir eden isler goruruk, 
+        meselen marginn soz ve ya metnler arasindaki mesafeni teyin edir*/
+    </style>
 </head>
 <body>
-    <h1 style="color: rgb(89, 255, 0) ; background-color: rgb(4, 133, 245); border-radius: 10px; ">Salam, Sehifeye xos gelmisiniz!!!</h1>
-    <h2 >Bu sehifede siz rengleme ve serhedleme ile tanis olacaqsiniz.</h2>
+    <div>
+        <!-- meselen gelin burda ozumuz el le padding verek-->
+    <h1 style="color: rgb(89, 255, 0) ; background-color: rgb(4, 133, 245); 
+    border-radius: 10px;padding-left: 5px;padding-right: 5px;padding-bottom:5px ; padding-top: 5px;">Salam, Sehifeye xos gelmisiniz!!!</h1>
+    <h2 style="background-color: blue;">Bu sehifede siz rengleme ve serhedleme ile tanis olacaqsiniz.</h2>
     <p style="border-radius:4px; color: aqua ; background-color: black; width: auto;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam voluptatem consequuntur <br>
          unde ex, quas sint. Molestias saepe quas quam, nihil, non necessitatibus laudantium quasi aperiam cum deleni<br>
           fugiat tenetur, distinctio quae facilis atque facere reprehenderit dicta soluta fuga obcaecati. Reprehenderit,<br>
@@ -16,6 +27,6 @@
     </p>
     <!-- border vasitesi ile cercive duzelde bilerik, border-radius vasitesile kenerlarini dairevi ede bilerik,
       border-style ile ise cercivenin stilini deyise bilerik-->
-    
+    </div> 
 </body>
 </html>
