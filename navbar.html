@@ -9,19 +9,24 @@
         #anasehife{background-color: blue; padding:25px;}
         #nav{background-color: green;}
         #menular{text-align: center; width: calc(100% - 100px); display: inline-block;}
+        .logo{color: black;font-weight: bold; font-size: 19px;text-decoration: none;width: 100px;height: 100px;} 
+        .itemlar{margin: 0;padding: 0;list-style: none;color: white}
+        .item{display: inline-block ;margin: 0 15px; text-decoration: none; ;}
 
     </style>
 </head>
 <body>
     <header id="nav">
-        <a href="#">Udemy</a>
+        <a  class="logo" href="#">Udemy</a>
         <nav id="menular">
-            <a href="#">Ana sehife</a>
-            <a href="#">Kataloq</a>
-            <a href="#">Fealiyyet</a>
-            <a href="#">Melumat</a>
-            <a href="#">Elaqe</a>
-         </nav>
+            <ul class="itemlar">
+                <li  class="item"><a href="#">Ana sehife</a></li>
+                <li class="item"><a href="#">Kataloq</a></li>
+                <li class="item"><a href="#">Fealiyyet</a></li>
+                <li class="item"><a href="#">Melumat</a></li>
+                <li class="item"><a href="#">Elaqe</a></li>
+             </ul>
+        </nav>
     </header>
 
     <div>
