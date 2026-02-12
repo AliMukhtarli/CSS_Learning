@@ -17,13 +17,21 @@
         img{
             width: 400px;
             height: 250px;
+            margin-right: 5px;
+            display: inline-block;
+            float: left;
         }
         p{
             border: 2px solid grey;
             padding: 6px;
         }
+        .deyisiklik ::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
 
-    </style>
+    </style> 
  </head>
  <body>
     <div class="umumi">
@@ -37,15 +45,16 @@
     <h1>Sekil elave edecik</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore reprehenderit sequi exercitationem, saepe optio molestias obcaecati neque nemo consectetur
          eos soluta illum, natus esse quisquam, eveniet qui magnam ex laborum.</p>
-         <p>
+         <p class="deyisiklik">
             <img src="batman.jpg" alt="Batmanin yasadiqi kuceler">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi neque molestiae iure voluptatem eaque omnis ex possimus fugiat quae con
-                sequatur in, similique optio, officiis et perferendis accusamus obcaecati quos.</p>
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero repellat aspernatur aliquid excepturi blanditiis quis, fugiat accusamus, provident neque nesciunt,
-                 labore saepe dolore esse magni. Quod ipsa eaque ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis mollit
-                 ia asperiores facilis quam nulla exercitationem. Nesciunt dolorum sequi saepe. Nostrum, eum libero facere iure tenetur dignissimos cumque nam similique.
-            </div>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero repellat aspernatur aliquid 
+                excepturi blanditiis quis, fugiat accusamus, provident neque nesciunt,
+                 labore saepe dolore esse magni. Quod ipsa eaque ipsam. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Doloribus reiciendis mollit
+                 ia asperiores facilis quam nulla exercitationem. Nesciunt dolorum sequi saepe. 
+                 Nostrum, eum libero facere iure tenetur dignissimos cumque nam similique.
+            </span>
          </p>
     
     
