@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* root edib rengi teyin etdiyimiz zaman biz onu var() vasitesi ile istediyimiz yerde reng kodunu yazmadan istifade ede bilerik*/
+        :root{
+            --yasil: #00ff00;
+        }
+
         .metin{width: 200px;
             height: 200px;
             margin-top: 5px;
-            background-color: lightskyblue;
+            /*gorduyunuz kimi burdada var(yasil) vasitesi ile reng kodunu  yazmadan deyisiklik olundu*/
+            background-color: var(--yasil);
             border: 2px solid black;
         }
         .metin-bir{
@@ -18,7 +24,6 @@
             width: 400px;
             height: 250px;
             margin-right: 5px;
-            display: inline-block;
             float: left;
         }
         p{
